@@ -1,0 +1,133 @@
+/* Removes default stylings with wildcard */
+* {  
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    box-sizing: border-box;
+  
+}
+/* Experimented with company logo, looks horrible. Let's not try this again 
+header h1{
+    color: rgba(255, 255, 255, 0.772);
+    background-color: #2e3437;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 10px; 
+    position: relative;
+    left: 700px;
+    top: 135px;
+    z-index: 1;
+} */
+header h1{
+    font-size: 48px;
+    background-color: #416066;
+    text-align: center;
+    z-index: 1; 
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    text-align: center;
+    /* margin: 80px 0; Didn't like the end result*/
+    white-space: nowrap;
+    box-sizing: none;
+}   
+.menu li{
+    display: inline-block;
+    /*width: 40%; keeps messing up img removing it for now */
+    margin: 20px 5%;
+   
+}
+
+.banner {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+ul .menu{
+    display: inline-block;
+    width: 33%;
+}
+
+li .menu{
+    max-width: 100%;
+}
+
+.pho {
+    height: 50vh;
+}
+
+.springRolls{
+    height: 50vh;
+}
+
+.iceTea{
+    height: 50vh;
+}
+
+/* max-width and width 1200px is temp to test, just cut off most of the right side */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #374346;
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+}
+
+
+
+/* my nav bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    overflow: hidden;
+    background-color: #416066;
+    
+}
+
+nav li {
+    float: left;
+    width: 25%;
+    border-right: 1px solid #916F5E;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #c0c1b3;
+}
+
+span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+main p{
+    line-height: 2em;
+}
+
