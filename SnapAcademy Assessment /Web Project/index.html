@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7b1823ecba.js" crossorigin="anonymous"></script>
 <title>My Web Project</title>
 </head>
 <body>
@@ -34,24 +35,34 @@
     <p class="callToAction">The best time to eat pho is all the time! So come on down to our restaurant and feast upon this amazing cuisine!     
     </p>
 </main>
-<ul class="menu"> 
+
+<!--Failed attempt, keeping this code block to revist and learn from-->
+<!-- <ul class="menu"> 
    <li><img src="img/pho.jpg" class="pho" alt="bowl_of_pho_Yum"></li> 
    <li><img src="img/springRolls.jpg" class="springRolls" alt="springRolls_Yum"></li> 
     <li><img src="img/iceTea.jpg" class="iceTea" alt="ice_tea"></li>
-</ul>
+</ul> -->
+
+<!-- Last Attempt to fix pictures using Grid layout-->
+<div class="image-grid">
+    <img class="image-grid-col-2 image-grid-row-2" src="img/pho.jpg" alt="pho">
+    <img src="img/iceTea.jpg" alt="iceTea">
+    <img src="img/springRolls.jpg" alt="springRolls">
+  </div>
+
 <!-- add logo to the socials -->
 <footer>
     <ul>
-        <li><a href="https://www.instagram.com/">Instagram</a></li>
-        <li><a href="https://www.facebook.com/">Facebook</a></li>
-        <li><a href="https://www.snapchat.com/">SnapChat</a></li>
-        <li><a href="https://www.yelp.com/biz/pho-hong-long-gardena?osq=pho+hong+long">Yelp</a></li>
+        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl"></i>&nbsp; Instagram</a></li>
+        <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2xl"></i>&nbsp; Facebook</i></a></li>
+        <li><a href="https://www.snapchat.com/"><i class="fa-brands fa-snapchat fa-2xl"></i>&nbsp; SnapChat</i></a></li> 
+        <li><a href="https://www.yelp.com/biz/pho-hong-long-gardena?osq=pho+hong+long"><i class="fa-brands fa-yelp fa-2xl"></i>&nbsp;Yelp</a></li>
     </ul>
 <section class="emailSignUp">
-    <form action="/action_page.php">
+    <form action="/action_page.php" >
         <label for="email"><span>SPECIAL DEALS!!!</span></label>
         <input type="email" id="email" name="email" placeholder="Enter Email :D">
-        <input type="submit">
+        <input type="submit" id="submitButton">
     </form>
 </section>    
     </footer>

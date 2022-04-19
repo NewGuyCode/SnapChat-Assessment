@@ -131,3 +131,70 @@ main p{
     line-height: 2em;
 }
 
+/* Was suprisingly simple and painless, if only the rest of my css went this well*/
+#submitButton{
+    background: #916F5E;
+    color: white;
+    border-style: outset;
+    border-color: #916F5E;
+    height: 25px;
+    width: 50px;
+    font: bold15px arial,sans-serif;
+    text-shadow: none;
+}
+
+#submitButton:hover {
+    background: #CFD9D1;
+    color: #fff;
+    border: 1px solid #eee;
+    /* border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee; */
+    text-shadow: none;
+    }
+
+/* Trying out some media queries */ 
+
+/* added one breakpoint to help with the shrinking of the navBar */
+@media screen and (max-width: 780px) {
+    nav ul {
+        font-size: .5em;
+    }
+}
+
+/* image grid test, this code was taken else where and I just made a small tweek to it, again not happy that I was not able to find a solution in time */
+.image-grid {
+    --gap: 16px;
+    --num-cols: 3;
+    --row-height: 300px;
+  
+    box-sizing: border-box;
+    padding: var(--gap);
+  
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+  }
+  
+  .image-grid > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .image-grid-col-2 {
+    grid-column: span 2;
+  }
+  
+  .image-grid-row-2 {
+    grid-row: span 2;
+  }
+  
+  /* Anything udner 1024px */
+  @media screen and (max-width: 1024px) {
+    .image-grid {
+      --num-cols: 2;
+      --row-height: 200px;
+    }
+  }
+  
