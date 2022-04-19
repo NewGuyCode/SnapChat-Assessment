@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7b1823ecba.js" crossorigin="anonymous"></script>
+<title>My Web Project</title>
+</head>
+<body>
+    <header>
+        <h1>Pho Hong Long</h1>
+    </header>
+<section class="banner">
+    <img src="img/busyStreets.jpg" alt="busy-streets-of-Vietnam">
+</section>    
+    <!--Couldn't get logo to appear nice in navBar (-_-;) -->
+    <nav class="navBar">
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#main">About</a></li>
+            <li><a href="https://www.yelp.com/menu/pho-hong-long-gardena" target="_blank">Menu</a></li>
+            <li><a href="https://www.google.com/maps/place/Pho+Hong+Long/@33.8208794,-118.2806044,11z/data=!4m9!1m2!2m1!1spho+hong+long!3m5!1s0x80c2b5a162f1c7a7:0x30f986cc96294391!8m2!3d33.888161!4d-118.3267901!15sCg1waG8gaG9uZyBsb25nWg8iDXBobyBob25nIGxvbmeSAQpyZXN0YXVyYW50" target="_blank">Location</a></li>
+        </ul>
+    </nav>
+        <h2>About Us (NOT AN OFFICIAL WEBSITE, its too ugly to be real site 😭)</h2>
+    
+<main id="main">
+         <!--Needs to be centered maybe. Experiment with different alignment-->
+       <!--Insert a flashy font for company name & add logo--> 
+    <p class="aboutUs"><span>Pho Hong Long</span> is home to the amazing and most popular Vietnamese cuisine known as pho which consist of broth and rice noodles. Unique flavors of pho comes from the ingredients of the broth, the consistency of the noodles, addition of meat, and how one garnishes it. Pho comes with your type and cuts of meat, along with a plate of vegetables to add. The vegetables typically added are bean sprout, basil, lime, jalapenos, cilantro, white onions, and more. Sauces such as hoisin sauce, chili oil, and Sriracha can be added. The best thing about pho is that it’s a great meal for any time of the day whether it’s breakfast, lunch, or dinner. 
+    </p>
+
+    <p class="callToAction">The best time to eat pho is all the time! So come on down to our restaurant and feast upon this amazing cuisine!     
+    </p>
+</main>
+
+<!--Failed attempt, keeping this code block to revist and learn from-->
+<!-- <ul class="menu"> 
+   <li><img src="img/pho.jpg" class="pho" alt="bowl_of_pho_Yum"></li> 
+   <li><img src="img/springRolls.jpg" class="springRolls" alt="springRolls_Yum"></li> 
+    <li><img src="img/iceTea.jpg" class="iceTea" alt="ice_tea"></li>
+</ul> -->
+
+<!-- Last Attempt to fix pictures using Grid layout-->
+<div class="image-grid">
+    <img class="image-grid-col-2 image-grid-row-2" src="img/pho.jpg" alt="pho">
+    <img src="img/iceTea.jpg" alt="iceTea">
+    <img src="img/springRolls.jpg" alt="springRolls">
+  </div>
+
+<!-- add logo to the socials -->
+<footer>
+    <ul>
+        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-2xl"></i>&nbsp; Instagram</a></li>
+        <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2xl"></i>&nbsp; Facebook</i></a></li>
+        <li><a href="https://www.snapchat.com/"><i class="fa-brands fa-snapchat fa-2xl"></i>&nbsp; SnapChat</i></a></li> 
+        <li><a href="https://www.yelp.com/biz/pho-hong-long-gardena?osq=pho+hong+long"><i class="fa-brands fa-yelp fa-2xl"></i>&nbsp;Yelp</a></li>
+    </ul>
+<section class="emailSignUp">
+    <form action="/action_page.php" >
+        <label for="email"><span>SPECIAL DEALS!!!</span></label>
+        <input type="email" id="email" name="email" placeholder="Enter Email :D">
+        <input type="submit" id="submitButton">
+    </form>
+</section>    
+    </footer>
+    </body>
+</html>
