@@ -2,19 +2,20 @@
 
 Day 1 😀: (Feeling Excited & Optimistic)
 
--Was at work for the day so no actual coding was done
--spent time just doing html/css refreshers 
--jot down some of the things I "planned" to implement
+- Was at work for the day so no actual coding was done
+- spent time just doing html/css refreshers 
+- jot down some of the things I "planned" to implement
 
 Day 2 😅: (Started off strong but getting stuck on an easy part lead to a bit of Imposter Syndrome) 
 
--Watched and coded along a couple of throwaway project on Youtube
--Memory was slowly coming back
--Did basic Html structure layout for my website
-*SPENT 3 HOURS on setting up my styles.css 
-  -contemplated my sanity
-  -physically stressing me more then the actual CSS itself 
-  -had to call it a day, couldn't resolve 
+- Watched and coded along a couple of throwaway project on Youtube
+- Memory was slowly coming back
+- Did basic Html structure layout for my website
+  
+  *SPENT 3 HOURS on setting up my styles.css 
+- contemplated my sanity
+- physically stressing me more then the actual CSS itself 
+- had to call it a day, couldn't resolve 
   
 Day 3 😰: (Resolved the CSS sheet, felt dumb so Imposter Syndrome was lurking) 
  
@@ -22,8 +23,8 @@ Day 3 😰: (Resolved the CSS sheet, felt dumb so Imposter Syndrome was lurking)
 - css.styles was NOT LOCATED IN THE SAME FOLDER. OMFG path was not relative. 
 - spent most of the time fumbling through CSS, experminenting and googling issues that popped up along the way
 - today I felt a lot more humble, and my CSS knowledge was expanding.
-- got stuck styling my pictures, I picked some CRAZY HUGE PICTURES but they were gorgoues so I stood my ground and fiddle with sizing them
-  -2 hours later I failed to styled them and called it quits.
+- got stuck styling my pictures, I picked some CRAZY HUGE PICTURES but they were gorgeous so I stood my ground and fiddle with sizing them
+- 2 hours later I failed to styled them and called it quits.
   
 Day 4 😭: (Imposter Sydrome at nearing it's peak. Why did I put off learning Git for so long OMG)
 
